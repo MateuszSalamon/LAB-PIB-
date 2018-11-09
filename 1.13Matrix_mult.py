@@ -18,7 +18,7 @@ start = 0
 end = 7
 num = 1
 
-
+# add random values to matrix1 and matrix2
 for i in range (7):
     for j in range(7):
         matr1[i][j] = rand(start, end, num)
@@ -28,7 +28,6 @@ for i in range (7):
 
 for i in range(7):
     for j in range(7):
-
         for k in range(7):
             matr3[i][j] += matr1[i][k] * matr2[k][j]
 
