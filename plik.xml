@@ -1,0 +1,10 @@
+<znajomi>
+	<osoba>
+		<imie foo="687">Zygmunt</imie>
+		<email>1@1.pl</email>
+	</osoba>
+	<osoba>
+		<imie foo="528">Janina</imie>
+		<email>2@2.pl</email>
+	</osoba>
+</znajomi>
