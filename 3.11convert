@@ -1,0 +1,19 @@
+#!/bin/bash
+
+
+echo To convert from jpg to png choose 1
+echo To convert from png to jpg choose 2
+read -p 'Convert option:' var
+read -p 'Insert image name here: ' path 
+read -p 'Insert future name here: ' path2 
+
+if [ $var -eq 1 ]; then 
+	convert $path.jpg $path2.png
+elif [ $var -eq 2 ]; then 
+	convert $path.png $path2.png
+fi
+
+
+
+ 
+

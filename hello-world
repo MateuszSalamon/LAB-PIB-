@@ -1,0 +1,15 @@
+#!/bin/bash
+
+#display hello world
+echo Hello World!
+
+#display number of files in this directory 
+#go to /dev
+cd /dev
+#list and count number of listings -1
+ls -1 | grep -v ^l | wc -l
+#go to program directory
+cd /home/user1/Documents/PiB
+
+
+

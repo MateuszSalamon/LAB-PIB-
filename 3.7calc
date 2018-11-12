@@ -1,0 +1,25 @@
+#!/bin/bash
+
+#simple bash calculator
+#insert 1. no.
+#insert operation
+#insert 2. no.
+read -p 'First parameter: ' a
+read -p 'Operation [1: - 2: / 3: + 4: * ]: ' s
+read -p 'Second parameter: ' b
+
+#echo $a $s $b
+
+case $s in
+	1)res=`expr $a - $b` 
+	echo $a - $b = $res;;
+	2)res=`expr $a / $b` 
+	echo $a / $b = $res;;
+	3)res=`expr $a + $b` 
+	echo $a + $b = $res;;
+	4)res=`expr $a \* $b` 
+	echo $a \* $b = $res;;
+esac
+
+
+

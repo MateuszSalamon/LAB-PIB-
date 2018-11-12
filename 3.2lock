@@ -1,0 +1,22 @@
+#!/bin/bash
+
+echo insert passcode
+n=0
+
+while [ $n -lt 3 ]
+do
+read -sp 'Passcode: ' varname
+
+if [ $varname -eq 1234 ]; then
+echo Welcome back
+pwd
+ls
+
+break
+
+else
+echo Try again
+n=$[$n+1]
+fi
+done
+
