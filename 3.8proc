@@ -1,0 +1,9 @@
+#!/bin/bash
+
+read -p 'Insert cool number: ' var
+
+if [ $var -gt 20 ]; then
+	cat /proc/cpuinfo
+else
+echo Not cool enough 
+fi

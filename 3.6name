@@ -1,0 +1,4 @@
+#!/bin/bash
+
+echo insert name, surname, DoB
+read var
